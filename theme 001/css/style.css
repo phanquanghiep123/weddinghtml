@@ -1,0 +1,196 @@
+/* theme config */
+section,blocks,parts{
+	display:  block;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+h1,h2,h3,h4,h5{	color: #000;}
+
+.content {
+	text-align:  center;
+	font-size: 15px;
+	font-family: Arial;
+
+}
+block {
+	margin-bottom: 30px;
+}
+.title-default{
+	font-family: 'Times New Roman';
+	color: #645495;
+	font-size: 42px;
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 100px;
+
+}
+.title-default:after{
+	content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    right: 0;
+    background-image: url(../images/photo-003.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 32px;
+}
+/*! theme config */
+
+/* thong tin dai dien */
+.information #content-section{
+	background-image: url(../images/photo-001.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align:  center;
+    color: #3a2871;
+    padding-top: 150px;
+    padding-bottom: 130px;
+}
+.information #content-section .begin-text {
+	font-family: 'SVN-Very Berry';
+	font-size: 40px;
+
+}
+.information #content-section part{
+	margin-bottom: 30px;
+}
+.information #content-section .name{
+	font-family: 'Times New Roman';
+	font-size: 68px;
+	text-transform: uppercase;
+}
+.information #content-section .icon-between{
+	max-height: 43px;
+}
+.information #content-section .text-001{
+	font-family: 'open_sans_condensedlight';
+	font-size: 30px;
+}
+.information #content-section .text-002{
+	font-family: 'SVN-Very Berry';
+	font-size: 55px;
+}
+.information #content-section .text-003{
+	font-family: 'open_sans_condensedlight';
+	font-size: 30px;
+}
+.information #content-section .text-004{
+	font-family: 'open_sans_condensedbold';
+	font-size: 30px;
+}
+/*! thong tin dai dien */
+/* chuyen chung minh */
+.our-story #content-section{
+	background-image: url(../images/photo-002.png);
+    background-repeat: repeat;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align:  center;
+    color: #3a2871;
+    height: 1040px;
+}
+.our-story #content-section .wrapper-section{
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: -110px; 
+	padding: 30px 0; 
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.our-story #content-section .wrapper-section blocks{
+	width: 1175px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-top: 10px solid #645495;
+    padding:60px;
+    padding-top: 150px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+.our-story #content-section .wrapper-section blocks:before{
+	content: "";
+    position: absolute;
+    top: -10px;
+    right: 100%;
+    background-image: url(../images/photo-004.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 401px;
+    width: 85px;
+    z-index: 1;
+}
+.our-story #content-section .wrapper-section blocks:after{
+	content: "";
+    position: absolute;
+    top: -10px;
+    left: 100%;
+    background-image: url(../images/photo-004.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 401px;
+    width: 85px;
+    z-index: 1;
+}
+.our-story #content-section .wrapper-section .name{
+	font-family: 'Times New Roman';
+	font-size: 42px;
+	text-transform: uppercase;
+	color: #3a2871;
+	margin: 30px 0;
+}
+.our-story #content-section .wrapper-section .circle-avatar metadata{
+	position: relative;
+	display: inline-block;
+}
+.our-story #content-section .wrapper-section .circle-avatar metadata img{
+	width: 420px;
+	height: 420px;
+    object-fit: contain;
+    border-radius: 100%
+}
+.our-story #content-section .wrapper-section .circle-avatar metadata:after{
+	content: "";
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	border: 5px solid #fff;
+	border-radius: 100%;
+	background-color:transparent;
+}
+.our-story #content-section .wrapper-section metadatas.content {
+	max-width: 860px;
+    display: block;
+    margin: auto;
+}
+/*! chuyen chung minh */
+
+/* dem nguoc*/
+.count-down #content-section{
+	background-image: url(../images/photo-005.jpg);
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    height: 566px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    padding: 40px 0;
+}
+.count-down #content-section .title-default {
+	color: #fff;
+}
+.count-down #content-section .title-default:after{
+	display: none;
+}
+.count-down #content-section .datetime{
+	display: none;
+}
+/*! dem nguoc*/

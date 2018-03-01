@@ -1,0 +1,1801 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="fonts/common.css">
+	<link rel="stylesheet" href="https://weddev.ilives.us/skins/themes/skins/css/font-awesome.css">
+	<link rel="stylesheet" href="https://weddev.ilives.us/skins/themes/skins/css/bootstrap.min.css">
+	<script src="https://weddev.ilives.us/skins/themes/skins/js/jquery.min.js"></script>
+	<script src="https://weddev.ilives.us/skins/themes/skins/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div id="content" class="view-page">
+	<sections class="list-sections" style="background-color:;background-image:;background-repeat:;background-size:;font-family:;background-position:;background-attachment:;">
+		<!-- ngRepeat: section in sections -->
+		<section ng-repeat="section in sections" class="section-item information" ramkey="5a97b105ca790">
+			<div id="content-section" ng-class="section.is_full == 0 ? 'container' : 'container-full'" style="" class="container-full">
+				<div class="wrapper-section">
+					<!-- ngIf: mode != 2 -->
+
+					<blocks class="row list-blocks ui-sortable">
+						<!-- ngIf: Show_Title(section.show_title) -->
+						<!-- ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-text" ramkey="5a97b105d0cc0">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text begin-text" ramkey="5a97b105cbc74">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Lễ cưới của cặp đôi" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Lễ cưới của cặp đôi</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-text" ramkey="5a97b105d663f">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text name" ramkey="5a97b105d1373">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Thanh Tùng" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Thanh Tùng</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-image" ramkey="5a97b105dbf51">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item image icon" ramkey="5a97b105d6ca6">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="image" data-is="image">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/5a961208b1359.png" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<img src="https://weddev.ilives.us//uploads/5a961208b1359.png" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="654" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-text" ramkey="5a97b105e1834">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text name" ramkey="5a97b105dc637">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Thu Hiền" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Thu Hiền</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-text" ramkey="5a97b105e6f37">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text text-001" ramkey="5a97b105e1eca">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="TRÂN TRỌNG MỜI BẠN ĐẾN" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">TRÂN TRỌNG MỜI BẠN ĐẾN</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-text" ramkey="5a97b105eca04">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text text-002" ramkey="5a97b105e75f6">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Block dòng văn bản" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Block dòng văn bản</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-text" ramkey="5a97b105f2099">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text text-003" ramkey="5a97b105ed0be">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="TỔ CHỨC VÀO NGÀY" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">TỔ CHỨC VÀO NGÀY</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-text" ramkey="5a97b10603637">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text text text-004" ramkey="5a97b105f277a">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="01.02.2020" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">01.02.2020</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+					</blocks>
+				</div>
+			</div>
+		</section>
+		<!-- end ngRepeat: section in sections -->
+		<section ng-repeat="section in sections" class="section-item our-story" ramkey="5a97b105a53e6">
+			<div id="content-section" ng-class="section.is_full == 0 ? 'container' : 'container-full'" style="" class="container-full">
+				<div class="wrapper-section">
+					<!-- ngIf: mode != 2 -->
+
+					<blocks class="row list-blocks ui-sortable">
+						<!-- ngIf: Show_Title(section.show_title) -->
+						<div class="default-block block-title ng-scope" ng-if="Show_Title(section.show_title)">
+							<h2 class="title-default ng-binding" >Chuyện chúng mình</h2>
+						</div>
+						<!-- end ngIf: Show_Title(section.show_title) -->
+						<!-- ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-content" ramkey="5a97b105ab6c9">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item content" ramkey="5a97b105a64bb">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+											 class="value_text" ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<p class="ng-scope">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-6 block-item block-groom" ramkey="5a97b105baf41">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item image circle-avatar" ramkey="5a97b105abd65">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="image" data-is="image">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a96147fc518f.png" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<img src="https://weddev.ilives.us//uploads/thumb/5a96147fc518f.png" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="655" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text title name" ramkey="5a97b105b0ae6">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Thanh Tùng" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Thanh Tùng</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item content" ramkey="5a97b105b58dc">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+											 class="value_text" ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<p class="ng-scope">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-6 block-item block-bride" ramkey="5a97b105ca750">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item image circle-avatar" ramkey="5a97b105bb8e1">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="image" data-is="image">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a9614cf0ed4e.png" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<img src="https://weddev.ilives.us//uploads/thumb/5a9614cf0ed4e.png" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="656" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text title name" ramkey="5a97b105c06a2">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Thu Hiền" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Thu Hiền</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item " ramkey="5a97b105c568d">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+											 class="value_text" ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<p class="ng-scope">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+					</blocks>
+				</div>
+			</div>
+		</section>
+		<!-- end ngRepeat: section in sections -->
+		<section ng-repeat="section in sections" class="section-item count-down" ramkey="5a97b1062c9e5">
+			<div id="content-section" ng-class="section.is_full == 0 ? 'container' : 'container-full'" style="" class="container-full">
+				<div class="wrapper-section">
+					<!-- ngIf: mode != 2 -->
+
+					<blocks class="row list-blocks ui-sortable">
+						<!-- ngIf: Show_Title(section.show_title) -->
+						<div class="default-block block-title ng-scope" ng-if="Show_Title(section.show_title)">
+							<h2 class="title-default ng-binding" >Đếm ngược thời gian</h2>
+						</div>
+						<!-- end ngIf: Show_Title(section.show_title) -->
+						<!-- ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-content" ramkey="5a97b10633f7b">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item content" ramkey="5a97b1062d92d">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+											 class="value_text" ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<p class="ng-scope">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-daytime" ramkey="5a97b10639c8e">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item daytime" ramkey="5a97b10634648">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="datetime" data-is="datetime">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="23/02/2018 10:00" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">23/02/2018 10:00</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<div class="count-down-box">
+											<div class="content-template" id="sc-box-ticker">
+												<h2 class="sc-text-center title"></h2>
+												<div id="Countdown">
+													<div class="item">
+														<span class="number">00</span> 
+														<span class="text">Tháng </span>
+													</div>
+													<div class="item">
+														<span class="number">00</span> 
+														<span class="text">Ngày </span>
+													</div>
+													<div class="item">
+														<span class="number">00</span> 
+														<span class="text">Giờ </span>
+													</div>
+													<div class="item">
+														<span class="number">00</span> 
+														<span class="text">Phút </span>
+													</div>
+													<div class="item">
+														<span class="number">00</span> 
+														<span class="text">Giây </span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+					</blocks>
+				</div>
+			</div>
+		</section>
+		<!-- end ngRepeat: section in sections -->
+		<section ng-repeat="section in sections" class="section-item albums-wedding" ramkey="5a97b10603677">
+			<div id="content-section" ng-class="section.is_full == 0 ? 'container' : 'container-full'" style="" class="container-full">
+				<div class="wrapper-section">
+					<!-- ngIf: mode != 2 -->
+
+					<blocks class="row list-blocks ui-sortable">
+						<!-- ngIf: Show_Title(section.show_title) -->
+						<div class="default-block block-title ng-scope" ng-if="Show_Title(section.show_title)">
+							<h2 class="title-default ng-binding" >Gallery ảnh cưới</h2>
+						</div>
+						<!-- end ngIf: Show_Title(section.show_title) -->
+						<!-- ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-content" ramkey="5a97b10609eef">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item content" ramkey="5a97b1060474d">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Block đoạn văn bản</p>" class="value_text"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<p class="ng-scope">Block đoạn văn bản</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-4 block-item block-album" ramkey="5a97b106151a7">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text" ramkey="5a97b1060a525">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Tên album" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Tên album</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item album" ramkey="5a97b1060f4cd">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="list images " data-is="list images ">
+											<!-- ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-4 block-item block-album" ramkey="5a97b10621381">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text" ramkey="5a97b106157a7">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Tên album" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Tên album</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item album" ramkey="5a97b1061bd7d">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="list images " data-is="list images ">
+											<!-- ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-4 block-item block-album" ramkey="5a97b1062c9a6">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text" ramkey="5a97b106219d7">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Tên album" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Tên album</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item album" ramkey="5a97b10627232">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="list images " data-is="list images ">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/5a65b940b3644.jpeg" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<a class="delete-item" href="javascript:;">X</a>
+													<img src="https://weddev.ilives.us//uploads/5a65b940b3644.jpeg" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="508" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a6066f4c3113.jpg" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<a class="delete-item" href="javascript:;">X</a>
+													<img src="https://weddev.ilives.us//uploads/thumb/5a6066f4c3113.jpg" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="509" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a65b9267b49a.jpeg" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<a class="delete-item" href="javascript:;">X</a>
+													<img src="https://weddev.ilives.us//uploads/thumb/5a65b9267b49a.jpeg" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="627" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a6694fdda260.jpg" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<a class="delete-item" href="javascript:;">X</a>
+													<img src="https://weddev.ilives.us//uploads/thumb/5a6694fdda260.jpg" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="628" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a8f8c52b7a46.jpg" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<a class="delete-item" href="javascript:;">X</a>
+													<img src="https://weddev.ilives.us//uploads/thumb/5a8f8c52b7a46.jpg" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="651" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a8f8c570447e.jpg" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<a class="delete-item" href="javascript:;">X</a>
+													<img src="https://weddev.ilives.us//uploads/thumb/5a8f8c570447e.jpg" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="652" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+					</blocks>
+				</div>
+			</div>
+		</section>
+		<!-- end ngRepeat: section in sections -->
+		
+		<section ng-repeat="section in sections" class="section-item love-story" ramkey="5a97b10639cce">
+			<div id="content-section" ng-class="section.is_full == 0 ? 'container' : 'container-full'" style="" class="container-full">
+				<div class="wrapper-section">
+					<!-- ngIf: mode != 2 -->
+
+					<blocks class="row list-blocks ui-sortable">
+						<!-- ngIf: Show_Title(section.show_title) -->
+						<div class="default-block block-title ng-scope" ng-if="Show_Title(section.show_title)">
+							<h2 class="title-default ng-binding" >Câu chuyện tình yêu</h2>
+						</div>
+						<!-- end ngIf: Show_Title(section.show_title) -->
+						<!-- ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-content" ramkey="5a97b1063fd3f">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item content" ramkey="5a97b1063acc9">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Block đoạn văn bản</p>" class="value_text"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<p class="ng-scope">Block đoạn văn bản</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-6 block-item block-story-love" ramkey="5a97b10658d11">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text_01" ramkey="5a97b10640373">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Dòng văn bản" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Dòng văn bản</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item day" ramkey="5a97b10645124">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="day" data-is="day">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="23/02/2018" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">23/02/2018</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item image" ramkey="5a97b10649f6f">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="image" data-is="image">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a60666031c7f.jpg" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<img src="https://weddev.ilives.us//uploads/thumb/5a60666031c7f.jpg" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="507" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item conten" ramkey="5a97b1064edc9">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Doàn văn bản</p>" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">
+												<p class="ng-scope">Doàn văn bản</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item year" ramkey="5a97b10653bec">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="year" data-is="year">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="2018" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">2018</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-6 block-item block-story-love" ramkey="5a97b10671e55">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text_01" ramkey="5a97b10659425">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Dòng văn bản" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Dòng văn bản</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item day" ramkey="5a97b1065e16b">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="day" data-is="day">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="23/02/2018" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">23/02/2018</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item image" ramkey="5a97b10662f63">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="image" data-is="image">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a60666031c7f.jpg" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<img src="https://weddev.ilives.us//uploads/thumb/5a60666031c7f.jpg" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="507" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item conten" ramkey="5a97b10667ead">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Doàn văn bản</p>" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">
+												<p class="ng-scope">Doàn văn bản</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item year" ramkey="5a97b1066cc96">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="year" data-is="year">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="2018" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">2018</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-6 block-item block-story-love" ramkey="5a97b1068af51">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text_01" ramkey="5a97b106724a9">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Dòng văn bản" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Dòng văn bản</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item day" ramkey="5a97b10677196">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="day" data-is="day">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="23/02/2018" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">23/02/2018</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item image" ramkey="5a97b1067c07c">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="image" data-is="image">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a60666031c7f.jpg" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<img src="https://weddev.ilives.us//uploads/thumb/5a60666031c7f.jpg" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="507" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item conten" ramkey="5a97b1068100f">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Doàn văn bản</p>" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">
+												<p class="ng-scope">Doàn văn bản</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item year" ramkey="5a97b10685e9d">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="year" data-is="year">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="2018" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">2018</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-6 block-item block-story-love" ramkey="5a97b106a4608">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text_01" ramkey="5a97b1068b5b2">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Dòng văn bản" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Dòng văn bản</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item day" ramkey="5a97b106902d6">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="day" data-is="day">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="23/02/2018" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">23/02/2018</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item image" ramkey="5a97b10695215">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="image" data-is="image">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a60666031c7f.jpg" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<img src="https://weddev.ilives.us//uploads/thumb/5a60666031c7f.jpg" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="507" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item conten" ramkey="5a97b1069a22f">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Doàn văn bản</p>" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">
+												<p class="ng-scope">Doàn văn bản</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item year" ramkey="5a97b1069f243">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="year" data-is="year">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="2018" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">2018</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+					</blocks>
+				</div>
+			</div>
+		</section>
+		<!-- end ngRepeat: section in sections -->
+		<section ng-repeat="section in sections" class="section-item family-of-two" ramkey="5a97b106a4650">
+			<div id="content-section" ng-class="section.is_full == 0 ? 'container' : 'container-full'" style="" class="container-full">
+				<div class="wrapper-section">
+					<!-- ngIf: mode != 2 -->
+
+					<blocks class="row list-blocks ui-sortable">
+						<!-- ngIf: Show_Title(section.show_title) -->
+						<div class="default-block block-title ng-scope" ng-if="Show_Title(section.show_title)">
+							<h2 class="title-default ng-binding" >Gia đình hai họ </h2>
+						</div>
+						<!-- end ngIf: Show_Title(section.show_title) -->
+						<!-- ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-content" ramkey="5a97b106aac30">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item content" ramkey="5a97b106a5ab5">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Block đoạn văn bản</p>" class="value_text"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<p class="ng-scope">Block đoạn văn bản</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-6 block-item block-family-of-two" ramkey="5a97b106ba3af">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item image" ramkey="5a97b106ab218">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="image" data-is="image">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a962194153b5.png" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<img src="https://weddev.ilives.us//uploads/thumb/5a962194153b5.png" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="658" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text" ramkey="5a97b106afee6">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="CHA MẸ CHÚ RỂ" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">CHA MẸ CHÚ RỂ</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item " ramkey="5a97b106b517b">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+											 class="value_text" ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<p class="ng-scope">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-6 block-item block-family-of-two" ramkey="5a97b106cd537">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item image" ramkey="5a97b106ba9d3">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="image" data-is="image">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/5a96221aed3b4.png" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<img src="https://weddev.ilives.us//uploads/5a96221aed3b4.png" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="659" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text" ramkey="5a97b106bf734">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="CHA MẸ CÔ DÂU" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">CHA MẸ CÔ DÂU</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item " ramkey="5a97b106c772f">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+											 class="value_text" ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<p class="ng-scope">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+					</blocks>
+				</div>
+			</div>
+		</section>
+		<!-- end ngRepeat: section in sections -->
+		<section ng-repeat="section in sections" class="section-item organizing-points" ramkey="5a97b106cd581">
+			<div id="content-section" ng-class="section.is_full == 0 ? 'container' : 'container-full'" style="" class="container-full">
+				<div class="wrapper-section">
+					<!-- ngIf: mode != 2 -->
+
+					<blocks class="row list-blocks ui-sortable">
+						<!-- ngIf: Show_Title(section.show_title) -->
+						<div class="default-block block-title ng-scope" ng-if="Show_Title(section.show_title)">
+							<h2 class="title-default ng-binding" >Đia điểm tổ chức</h2>
+						</div>
+						<!-- end ngIf: Show_Title(section.show_title) -->
+						<!-- ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-content" ramkey="5a97b106d7caf">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item content" ramkey="5a97b106ced6a">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+											 class="value_text" ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<p class="ng-scope">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-6 block-item block-place" ramkey="5a97b107027f7">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item place-name" ramkey="5a97b106d8465">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Tên địa điểm" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Tên địa điểm</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item place-image" ramkey="5a97b106e0755">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="image" data-is="image">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a8f8c52b7a46.jpg" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<img src="https://weddev.ilives.us//uploads/thumb/5a8f8c52b7a46.jpg" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="651" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item place-happen" ramkey="5a97b106e7c57">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="day" data-is="day">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="23/02/2018" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">23/02/2018</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item place-content" ramkey="5a97b106ecb1f">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Đoạn văn bản</p>" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">
+												<p class="ng-scope">Đoạn văn bản</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item place-map" ramkey="5a97b106f197a">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="map" data-is="map">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="{'lat': 20.973713783511663,'lng' : 105.84584955624996}"
+											 class="map_point" ng-repeat="meta in part.metas" compile="MetaShow(meta,part)"><input type="hidden" value="{'lat': 20.973713783511663,'lng' : 105.84584955624996}" name="map_point[]" autocomplete="off" class="ng-scope"></metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-6 block-item block-place" ramkey="5a97b1071b7f5">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item place-name" ramkey="5a97b10702e70">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Tên địa điểm" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Tên địa điểm</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item place-image" ramkey="5a97b10707b1b">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="image" data-is="image">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a8f8c52b7a46.jpg" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<img src="https://weddev.ilives.us//uploads/thumb/5a8f8c52b7a46.jpg" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="651" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item place-happen" ramkey="5a97b1070c8f7">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="day" data-is="day">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="23/02/2018" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">23/02/2018</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item place-content" ramkey="5a97b10711711">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Đoạn văn bản</p>" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">
+												<p class="ng-scope">Đoạn văn bản</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item place-map" ramkey="5a97b107164c8">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="map" data-is="map">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="{'lat': 20.973713783511663,'lng' : 105.84584955624996}"
+											 class="map_point" ng-repeat="meta in part.metas" compile="MetaShow(meta,part)"><input type="hidden" value="{'lat': 20.973713783511663,'lng' : 105.84584955624996}" name="map_point[]" autocomplete="off" class="ng-scope"></metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+					</blocks>
+				</div>
+			</div>
+		</section>
+		<!-- end ngRepeat: section in sections -->
+		<section ng-repeat="section in sections" class="section-item videos-wedding" ramkey="5a97b1071b838">
+			<div id="content-section" ng-class="section.is_full == 0 ? 'container' : 'container-full'" style="" class="container-full">
+				<div class="wrapper-section">
+					<!-- ngIf: mode != 2 -->
+
+					<blocks class="row list-blocks ui-sortable">
+						<!-- ngIf: Show_Title(section.show_title) -->
+						<div class="default-block block-title ng-scope" ng-if="Show_Title(section.show_title)">
+							<h2 class="title-default ng-binding" >Video cưới</h2>
+						</div>
+						<!-- end ngIf: Show_Title(section.show_title) -->
+						<!-- ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-content" ramkey="5a97b10721e13">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item content" ramkey="5a97b1071cc8c">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+											 class="value_text" ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<p class="ng-scope">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-6 block-item block-video" ramkey="5a97b1072c614">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item video title" ramkey="5a97b10722596">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Tên video" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Tên video</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item " ramkey="5a97b107273e3">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="video" data-is="video">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/5a5d7a777c8f6.mp4" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<video class="value_show src_video" src="https://weddev.ilives.us//uploads/5a5d7a777c8f6.mp4" controls=""></video>
+													<input type="hidden" name="medias[]" value="487" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-6 block-item block-video" ramkey="5a97b10736df4">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item " ramkey="5a97b1072cde4">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="video" data-is="video">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/5a5d7a777c8f6.mp4" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<video class="value_show src_video" src="https://weddev.ilives.us//uploads/5a5d7a777c8f6.mp4" controls=""></video>
+													<input type="hidden" name="medias[]" value="487" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item video title" ramkey="5a97b10731c16">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Tên video" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Tên video</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+					</blocks>
+				</div>
+			</div>
+		</section>
+		<!-- end ngRepeat: section in sections -->
+		<section ng-repeat="section in sections" class="section-item section- diary" ramkey="5a97b10736e32">
+			<div id="content-section" ng-class="section.is_full == 0 ? 'container' : 'container-full'" style="" class="container-full">
+				<div class="wrapper-section">
+					<!-- ngIf: mode != 2 -->
+
+					<blocks class="row list-blocks ui-sortable">
+						<!-- ngIf: Show_Title(section.show_title) -->
+						<div class="default-block block-title ng-scope" ng-if="Show_Title(section.show_title)">
+							<h2 class="title-default ng-binding" >Nhật kí</h2>
+						</div>
+						<!-- end ngIf: Show_Title(section.show_title) -->
+						<!-- ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item block-content" ramkey="5a97b1073eacd">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item content" ramkey="5a97b10737e3a">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Block đoạn văn bản</p>" class="value_text"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<p class="ng-scope">Block đoạn văn bản</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item diary" ramkey="5a97b10752b33">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text title" ramkey="5a97b1073f2aa">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Tiêu đề" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Tiêu đề</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item day" ramkey="5a97b10744119">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="day" data-is="day">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="28/02/2018" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">28/02/2018</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item " ramkey="5a97b10748eb8">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>"
+											 class="value_text" ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<p class="ng-scope">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+													dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item image" ramkey="5a97b1074dbb3">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="image" data-is="image">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a60670177add.jpg" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<img src="https://weddev.ilives.us//uploads/thumb/5a60670177add.jpg" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="510" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-12 block-item diary" ramkey="5a97b107666bf">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text title" ramkey="5a97b1075311d">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Tiêu đề" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Tiêu đề</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item day" ramkey="5a97b10757d80">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="day" data-is="day">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="28/02/2018" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">28/02/2018</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item " ramkey="5a97b1075ca71">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="content" data-is="content">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>"
+											 class="value_text" ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<p class="ng-scope">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+													dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item image" ramkey="5a97b10761779">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="image" data-is="image">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="/uploads/thumb/5a60670177add.jpg" class="value_media"
+											 ng-repeat="meta in part.metas" compile="MetaShow(meta,part)">
+												<div class="item-list ng-scope">
+													<img src="https://weddev.ilives.us//uploads/thumb/5a60670177add.jpg" class="value_show src_image">
+													<input type="hidden" name="medias[]" value="510" autocomplete="off">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+					</blocks>
+				</div>
+			</div>
+		</section>
+		<!-- end ngRepeat: section in sections -->
+		<section ng-repeat="section in sections" class="section-item section-wish" ramkey="5a97b107666fd">
+			<div id="content-section" ng-class="section.is_full == 0 ? 'container' : 'container-full'" style="" class="container-full">
+				<div class="wrapper-section">
+					<!-- ngIf: mode != 2 -->
+
+					<blocks class="row list-blocks ui-sortable">
+						<!-- ngIf: Show_Title(section.show_title) -->
+						<div class="default-block block-title ng-scope" ng-if="Show_Title(section.show_title)">
+							<h2 class="title-default ng-binding" >Sổ lưu bút</h2>
+						</div>
+						<!-- end ngIf: Show_Title(section.show_title) -->
+						<!-- ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-6 block-item guestbook" ramkey="5a97b1077f7a3">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item text my-name" ramkey="5a97b10767534">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Tên của bạn" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Tên của bạn</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item myname" ramkey="5a97b1076c1cc">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="input" data-is="input">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Nhân tên của bạn" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">
+												<div class="part-item ng-scope">
+													<input name="value_text" data-show="input" class="form-control" id="input_content" placeholder="Nhân tên của bạn">
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item wish text" ramkey="5a97b10770ea8">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="text" data-is="text">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Lời chúc" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">Lời chúc</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item wish-text" ramkey="5a97b10775ba9">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="textarea" data-is="textarea">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Nhập lời chúc" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">
+												<div class="part-item block-show ng-scope">
+													<div id="textarea-part">
+														<textarea>Nhập lời chúc</textarea>
+													</div>
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-3 part-item submit-sent-wish" ramkey="5a97b1077a868">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="Nút bấm" data-is="Nút bấm">
+											<!-- ngRepeat: meta in part.metas -->
+											<metadata ng-attr-data-value="{{(meta.meta_key != 'value_media') ? meta.value : meta.thumb}}" data-value="Gửi" class="value_text" ng-repeat="meta in part.metas"
+											 compile="MetaShow(meta,part)">
+												<div class="part-item block-show ng-scope">
+													<div id="button-part">
+														<input class="btn btn-primary" type="submit" value="Gửi">
+													</div>
+												</div>
+											</metadata>
+											<!-- end ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+						<block ng-repeat="block in section.blocks" class="col-md-6 block-item box-data" ramkey="5a97b10784cfa">
+							<div class="wrapper-block">
+								<!-- ngIf: mode != 2 -->
+								<parts class="row list-parts ui-sortable">
+									<!-- ngRepeat: part in block.parts -->
+									<part ng-repeat="part in block.parts" class="col-md-12 part-item content-box-data" ramkey="5a97b1077fd63">
+										<!-- ngIf: mode != 2 -->
+										<!-- ngIf: mode == 0 -->
+										<!-- ngIf: mode != 0 -->
+										<metadatas ng-if="mode != 0" class="box data" data-is="box data">
+											<!-- ngRepeat: meta in part.metas -->
+										</metadatas>
+										<!-- end ngIf: mode != 0 -->
+									</part>
+									<!-- end ngRepeat: part in block.parts -->
+								</parts>
+							</div>
+						</block>
+						<!-- end ngRepeat: block in section.blocks -->
+					</blocks>
+				</div>
+			</div>
+		</section>
+		<!-- end ngRepeat: section in sections -->
+	</sections>
+</div>
+</body>
+
+</html>
